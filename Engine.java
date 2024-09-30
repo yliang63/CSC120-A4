@@ -6,9 +6,7 @@ public class Engine {
   private double MaxLevel;
 
   public enum FuelType {
-    ELECTRIC,
-    GASOLINE,
-    DIESEL
+    STEAM, INTERNAL_COMBUSTION, ELECTRIC, OTHER;
   }
   public Engine(FuelType fueltype,double max){
     this.fuelType= fueltype;
