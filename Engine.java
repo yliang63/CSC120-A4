@@ -8,8 +8,8 @@ public class Engine {
   public enum FuelType {
     STEAM, INTERNAL_COMBUSTION, ELECTRIC, OTHER;
   }
-  public Engine(FuelType fueltype,double max){
-    this.fuelType= fueltype;
+  public Engine(FuelType fuelType2,double max){
+    this.fuelType= fuelType2;
     this.currentLevel=max;
     this.MaxLevel=max;
   }
@@ -28,6 +28,7 @@ public class Engine {
     }
     
   }
+
   public static void main(String[] args) {
     Engine myEngine = new Engine(FuelType.ELECTRIC,100.0);
     while (myEngine.go()) {

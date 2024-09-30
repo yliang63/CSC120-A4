@@ -32,7 +32,16 @@ public class Car {
     }
     return false;
   }
-
+  
+  public void printManifest(){
+    if(passengers.size()==0){
+      System.out.println("This car is Empty");
+    }
+    else{
+      System.out.println(passengers);
+    }
+  }
+  
   public static void main(String[] args){
 
   }
