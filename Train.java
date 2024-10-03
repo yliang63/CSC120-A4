@@ -9,7 +9,7 @@ public class Train {
         engine = new Engine(fuelType, fuelCapacity);
         cars = new ArrayList<>();
 
-        for (int i = 0; i < numbersOfCars; i++) {
+        for (int i=0; i<numbersOfCars; i++) {
             cars.add(new Car(passengerCapacity));
         }
     }
@@ -21,7 +21,7 @@ public class Train {
 
     //get method from car class
     public Car getCar(int i) {
-        if (i >= 0 && i < cars.size()) {
+        if (i>=0 && i<cars.size()) {
             return cars.get(i);
         }
         return null;
@@ -40,9 +40,9 @@ public class Train {
     public int seatsRemaining() {
         int OccupiedSeats = 0;
         for (Car car : cars) {
-            OccupiedSeats += car.getCapacity() - car.seatsRemaining();
+            OccupiedSeats += car.getCapacity()-car.seatsRemaining();
         }
-        return getMaxCapacity() - OccupiedSeats;
+        return getMaxCapacity()-OccupiedSeats;
     }
 
     //encapsulation
@@ -56,8 +56,8 @@ public class Train {
         Train train = new Train(FuelType.STEAM, 100.0, 3, 50);
         System.out.println("Train Engine Details:");
         System.out.println(train.getEngine());
-        System.out.println("\nTrain Max Capacity: " + train.getMaxCapacity());
-        System.out.println("\nAvailable Seats: " + train.seatsRemaining());
+        System.out.println("Train Max Capacity: "+train.getMaxCapacity());
+        System.out.println("Available Seats: "+train.seatsRemaining());
         train.printManifest();
     }
 }
