@@ -12,29 +12,29 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
+___Yes__ 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
 
-_____ 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
+__Yes___ 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
 
-_____ 1 pt: The `Engine` class has a functional constructor
+__Yes___ 1 pt: The `Engine` class has a functional constructor
 
-_____ 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly modify the fuel level
+__Yes___ 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly modify the fuel level
 
 ### Level 2 (3 pts)
 
-_____ 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
+___YEs__ 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
 
-_____ 1 pt: The `Car` class has functional `addPassenger(...)` and `removePassenger(...)` methods
+___Yes__ 1 pt: The `Car` class has functional `addPassenger(...)` and `removePassenger(...)` methods
 
-_____ 1 pt: The `Car` class has a `printManifest()` method that prints a nicely-formatted roster of all `Passenger`s currently aboard the car
+__Yes___ 1 pt: The `Car` class has a `printManifest()` method that prints a nicely-formatted roster of all `Passenger`s currently aboard the car
 
 ### Level 3 (3 pts)
 
-_____ 1 pt: The `Passenger` class uses appropriate methods from the `Car` class to implement its `boardCar(...)` and `getOffCar(...)` methods
+__Yes___ 1 pt: The `Passenger` class uses appropriate methods from the `Car` class to implement its `boardCar(...)` and `getOffCar(...)` methods
 
-_____ 1 pt: The `Train` class has all expected attributes / relationships with the other classes
+__Yes___ 1 pt: The `Train` class has all expected attributes / relationships with the other classes
 
-_____ 1 pt: The `Train` class has all expected methods, making use of methods from other classes as appropriate
+__Yes___ 1 pt: The `Train` class has all expected methods, making use of methods from other classes as appropriate
 
 
 
