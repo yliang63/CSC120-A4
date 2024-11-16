@@ -74,14 +74,16 @@ public class Car {
      * Prints "This car is empty" if the car is empty.
      * 
      */
-    public void printManifest(){
-        if(passengers.size()==0){
-            System.out.println("This car is Empty");
-        } else{
-            System.out.println(passengers);
-        }
+    public void printManifest() {
+      if (passengers.size() == 0) {
+          System.out.println("This car is Empty");
+      } else {
+          for (Passenger p : passengers) {
+              System.out.println(p.getName());
+          }
+      }
     }
-  
+
     /**
      * This method is to display the functionality of the class
      */

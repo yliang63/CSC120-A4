@@ -43,4 +43,12 @@ public class Passenger {
         }
         return false;
     }
+    /**
+     * Retrieves the name of the passenger.
+     * @return The name of the passenger.
+     */
+    public String getName() {
+        return name;
+    }
+
 }
